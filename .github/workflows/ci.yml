@@ -43,6 +43,7 @@ jobs:
       - name: Run tests
         run: ./gradlew test
 
+
       # Step 5: JAR 빌드
       - name: Build JAR
         run: ./gradlew bootJar
